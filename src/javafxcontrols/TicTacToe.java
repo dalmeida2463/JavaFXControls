@@ -46,7 +46,7 @@ public class TicTacToe extends Application {
     borderPane.setBottom(lblStatus);
     
     // Create a scene and place it in the stage
-    Scene scene = new Scene(borderPane, 450, 170);
+    Scene scene = new Scene(borderPane, 450, 450);
     primaryStage.setTitle("TicTacToe"); // Set the stage title
     primaryStage.setScene(scene); // Place the scene in the stage
     primaryStage.show(); // Display the stage   
